@@ -36,7 +36,7 @@ public class EnemyBehavior : MonoBehaviour {
 			health -= missile.GetDamage();
 			missile.Hit();
 			if (health <= 0) {
-				Die();
+				Die(); 
 			}
 		}
 	}
